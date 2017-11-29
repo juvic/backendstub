@@ -3,7 +3,8 @@ var form = document.querySelector("form")
     , result = document.querySelector(".result");
 
 //websocketサーバーへ接続準備
-var ws = new WebSocket("ws://localhost:3000"); //"ws://"+location.hostでもOK
+// var ws = new WebSocket("ws://localhost:3000"); //"ws://"+location.hostでもOK
+var ws = new WebSocket("ws://" + location.host); 
 
 //websocketサーバーとの接続完了した場合の処理-open-
 
