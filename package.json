@@ -7,11 +7,11 @@
   "description": "What am I about?",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node echo_server.js"
   },
   "dependencies": {
     "express": "^4.16.2",
-    "socket.io": "^2.0.4"
+    "ws": "^3.3.2"
   },
   "engines": {
     "node": "8.x"
